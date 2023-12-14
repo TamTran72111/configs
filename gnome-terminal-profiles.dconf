@@ -1,0 +1,32 @@
+[/]
+default='c683ead6-401f-4800-a8a6-7e3327941665'
+list=['30c25a62-4eaf-48f7-8a57-316a0496923b', 'c683ead6-401f-4800-a8a6-7e3327941665']
+
+[:30c25a62-4eaf-48f7-8a57-316a0496923b]
+background-color='#282c34'
+bold-color='#ABB2BF'
+bold-color-same-as-fg=true
+font='JetBrainsMono Nerd Font 12'
+foreground-color='#abb2bf'
+palette=['rgb(7,54,66)', 'rgb(220,50,47)', 'rgb(133,153,0)', 'rgb(181,137,0)', 'rgb(38,139,210)', 'rgb(211,54,130)', 'rgb(42,161,152)', 'rgb(238,232,213)', 'rgb(0,43,54)', 'rgb(203,75,22)', 'rgb(88,110,117)', 'rgb(101,123,131)', 'rgb(131,148,150)', 'rgb(108,113,196)', 'rgb(147,161,161)', 'rgb(253,246,227)']
+use-system-font=false
+use-theme-background=false
+use-theme-colors=false
+visible-name='One Dark'
+
+[:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+background-color='rgb(23,20,33)'
+font='JetBrainsMono Nerd Font 12'
+foreground-color='rgb(208,207,204)'
+use-system-font=false
+use-theme-colors=true
+
+[:c683ead6-401f-4800-a8a6-7e3327941665]
+background-color='rgb(34,36,54)'
+bold-is-bright=false
+font='JetBrainsMono Nerd Font 12'
+foreground-color='rgb(200,211,245)'
+palette=['rgb(27,29,43)', 'rgb(255,117,127)', 'rgb(195,232,141)', 'rgb(255,199,119)', 'rgb(130,170,255)', 'rgb(192,153,255)', 'rgb(134,225,252)', 'rgb(130,139,184)', 'rgb(68,74,115)', 'rgb(255,117,127)', 'rgb(195,232,141)', 'rgb(255,199,119)', 'rgb(130,170,255)', 'rgb(192,153,255)', 'rgb(134,225,252)', 'rgb(200,211,245)']
+use-system-font=false
+use-theme-colors=false
+visible-name='ToykoNight'
