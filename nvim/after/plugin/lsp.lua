@@ -37,7 +37,7 @@ lsp.on_attach(function(client, bufnr)
     vim.keymap.set('n', keys, func, { buffer = bufnr, desc = desc, remap = false})
   end
 
-  nmap('gd', vim.lsp.buf.declaration, '[G]oto [D]eclaration')
+  nmap('gD', vim.lsp.buf.declaration, '[G]oto [D]eclaration')
   nmap('gd', vim.lsp.buf.definition, '[G]oto [D]efinition')
   nmap('gr', require('telescope.builtin').lsp_references, '[G]oto [R]eferences')
   nmap('gI', require('telescope.builtin').lsp_implementations, '[G]oto [I]mplementation')
