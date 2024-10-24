@@ -15,3 +15,18 @@ vim.opt.scrolloff = 8
 vim.opt.colorcolumn = '80'
 
 vim.wo.signcolumn = 'yes'
+
+vim.api.nvim_create_autocmd('TextYankPost', {
+  desc = 'Highlight when yanking (copying) text',
+  group = vim.api.nvim_create_augroup('highlight-yank', {clear = true}),
+  callback = function()
+    vim.highlight.on_yank()
+  end,
+})
+
+vim.api.nvim_create_autocmd('BufWritePre', {
+  desc = 'Remove trailing spaces on save',
+  group = vim.api.nvim_create_augroup('remove-trailing-spaces', {clear = true}),
+  command = ':%s/\\s\\+$//e',
+})
+
