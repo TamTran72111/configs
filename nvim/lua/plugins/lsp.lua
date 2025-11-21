@@ -24,7 +24,6 @@ return {
 
     lsp.preset('recommended')
     lsp.ensure_installed({
-      'tsserver',
       'eslint',
       'rust_analyzer',
     })

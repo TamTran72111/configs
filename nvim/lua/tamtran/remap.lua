@@ -10,3 +10,11 @@ vim.keymap.set('n', '<leader>Y', '"+Y')
 vim.keymap.set('n', '<leader>p', '"+p')
 vim.keymap.set('n', '<leader>P', '"+P')
 
+-- Quick fix list
+vim.keymap.set('n', '<M-j>', ':cnext<CR>', { desc = 'Next item on quick fix list' })
+vim.keymap.set('n', '<M-k>', ':cprev<CR>', { desc = 'Previous item on quick fix list' })
+
+vim.keymap.set('n', '<leader>dh', '<C-w>h<cmd>q<CR>', { desc = 'Close left window' })
+vim.keymap.set('n', '<leader>dl', '<C-w>j<cmd>q<CR>', { desc = 'Close right window' })
+vim.keymap.set('n', '<leader>dj', '<C-w>j<cmd>q<CR>', { desc = 'Close below window' })
+vim.keymap.set('n', '<leader>dk', '<C-w>j<cmd>q<CR>', { desc = 'Close above window' })
